@@ -30,7 +30,8 @@
 .button-container {
   height: 40px;
   width: 280px;
-  background-color: white;
   margin: 15px auto 0;
   border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
 }

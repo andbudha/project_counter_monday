@@ -1,4 +1,7 @@
 import React from 'react';
+import style from './Button.module.css'
+
+
 
 type ButtonPropsType = {
     title: string
@@ -12,7 +15,7 @@ export const Button = (props: ButtonPropsType) => {
 
     return (
         <>
-            <button onClick={onClickButtonHandler}>{props.title}</button>
+            <button onClick={onClickButtonHandler} className={style.button}>{props.title}</button>
         </>
     );
 };

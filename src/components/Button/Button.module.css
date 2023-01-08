@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button{
+    background-color: crimson;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 49%;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

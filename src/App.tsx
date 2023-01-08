@@ -4,7 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      Testing
+      <div className={'counter-container'}>
+          <div className={'counter-display'}></div>
+          <div className={'button-container'}>
+
+          </div>
+      </div>
     </div>
   );
 }

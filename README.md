@@ -1,3 +1,3 @@
 # About
 
-This project is the test task from level monday, it-incubator
+This project is the test task from level monday, it-incubator online bootcamp.

@@ -16,6 +16,10 @@
     color: #2B3467;
 }
 
+.button:active {
+    font-size: 1.11rem;
+}
+
 .disabled_button {
     background-color: #EB455F;
     color: #FCFFE7;

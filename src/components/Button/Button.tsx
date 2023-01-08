@@ -5,6 +5,8 @@ import style from './Button.module.css'
 
 type ButtonPropsType = {
     title: string
+    id: number
+    count: number
     callBack:()=>void
 }
 export const Button = (props: ButtonPropsType) => {
@@ -16,8 +18,9 @@ export const Button = (props: ButtonPropsType) => {
     return (
         <>
             <button
+                disabled={props.count === 5 && props.id === 1 || props.count < 5 && props.id === 2}
                 onClick={onClickButtonHandler}
-                className={style.button}
+                className={`${style.button} ${props.count === 5 && props.id === 1 || props.count < 5 && props.id === 2 ? style.disabled_button : ''}`}
             >{props.title}</button>
         </>
     );

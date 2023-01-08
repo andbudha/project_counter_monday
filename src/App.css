@@ -12,7 +12,7 @@
 
 .counter-container{
   border: 1px solid white;
-  height: 270px;
+  height: 230px;
   width: 300px;
   margin: auto ;
   border-radius: 10px;
@@ -20,7 +20,7 @@
 }
 
 .counter-display {
-  height: 180px;
+  height: 150px;
   width: 280px;
   background-color: white;
   border-radius: 10px;
@@ -28,10 +28,9 @@
 }
 
 .button-container {
-  height: 50px;
+  height: 40px;
   width: 280px;
   background-color: white;
   margin: 15px auto 0;
   border-radius: 10px;
-
 }

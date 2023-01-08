@@ -5,13 +5,18 @@
 }
 
 .button{
-    background-color: crimson;
+    background-color: #FCFFE7;
     height: 40px;
-    border: 1px solid white;
+    border: 1px solid #BAD7E9;
     border-radius: 5px;
     width: 49%;
-    color: white;
+    color: #2B3467;
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+.button:hover {
+    background-color: #BAD7E9;
+    color: #EB455F;
 }

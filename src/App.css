@@ -5,14 +5,14 @@
 }
 .App {
   text-align: center;
-  background-color: teal;
+  background-color: #2B3467;
   height: 100vh;
   padding: 150px 0 0;
 }
 
 .counter-container{
-  border: 1px solid white;
-  height: 230px;
+  border: 1px solid #FCFFE7;
+  height: 200px;
   width: 300px;
   margin: auto ;
   border-radius: 10px;
@@ -20,11 +20,13 @@
 }
 
 .counter-display {
-  height: 150px;
+  height: 120px;
   width: 280px;
-  background-color: white;
+  background-color: #FCFFE7;
   border-radius: 10px;
   margin: 0 auto;
+  font-size: 5rem;
+  color: #2B3467;
 }
 
 .button-container {

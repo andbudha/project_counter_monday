@@ -4,14 +4,21 @@ const initialState = {
 }
 
 type InitialStateType = typeof initialState;
-type ActionType = any;
+type ActionType = IncreaseCounterACType;
 export const CounterReducer = (state: InitialStateType = initialState, action: ActionType): InitialStateType => {
     switch (action.type) {
-        case 'XXX': {
-            return state;
+        case "INCREASE-COUNTER": {
+            return { ...state, value: state.value + 1 };
         }
         default: {
             return state;
         }
     }
+}
+
+type IncreaseCounterACType = ReturnType<typeof IncreaseCounterAC>
+export const IncreaseCounterAC = () => {
+    return {
+        type: 'INCREASE-COUNTER'
+    } as const
 }
